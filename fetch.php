@@ -1,5 +1,5 @@
 <?php
-include('db.php');
+include('server.php');
 include('function.php');
 $query = '';
 $output = array();
