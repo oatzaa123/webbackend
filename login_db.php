@@ -1,5 +1,5 @@
 <?php 
-    include("server.php");
+    include("db.php");
     session_start();
 
     $errors= array();
