@@ -15,12 +15,12 @@ function upload_image()
 function get_image_name($user_id)
 {
  include('db.php');
- $statement = $connection->prepare("SELECT image FROM product WHERE id = '$user_id'");
+ $statement = $connection->prepare("SELECT product_img FROM product WHERE id = '$user_id'");
  $statement->execute();
  $result = $statement->fetchAll();
  foreach($result as $row)
  {
-  return $row["image"];
+  return $row["product_img"];
  }
 }
 
