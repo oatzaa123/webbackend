@@ -18,7 +18,7 @@ if(isset($_POST["user_id"]))
     $output['product_details'] = $row['product_details'];
   if($row["product_img"] != '')
   {
-   $output['product_img'] = '<img src="upload/'.$row["product_img"].'" class="img-thumbnail" width="50" height="35" /><input type="hidden" name="hidden_user_image" value="'.$row["image"].'" />';
+   $output['product_img'] = '<img src="uploads/'.$row["product_img"].'" class="img-thumbnail" width="50" height="35" /><input type="hidden" name="hidden_user_image" value="'.$row["image"].'" />';
   }
   else
   {
