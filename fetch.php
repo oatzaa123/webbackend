@@ -31,7 +31,7 @@ foreach($result as $row)
  $image = '';
  if($row["product_img"] != '')
  {
-  $image = '<img src="upload/'.$row["product_img"].'" class="img-thumbnail" width="50" height="35" />';
+  $image = '<img src="uploads/'.$row["product_img"].'" class="img-thumbnail" width="50" height="35" />';
  }
  else
  {
