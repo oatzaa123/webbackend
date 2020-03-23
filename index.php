@@ -87,7 +87,7 @@
      <input type="text" name="product_price" id="product_price" class="form-control" />
      <br />
      <label>Enter Product Details</label>
-     <input type="text" name="product_details" id="product_details" class="form-control" />
+     <input type="textarea" name="product_details" id="product_details" class="form-control" />
      <br />
      <label>Select Product Image</label>
      <input type="file" name="product_img" id="product_img" />
