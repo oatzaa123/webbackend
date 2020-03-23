@@ -8,7 +8,7 @@ if(isset($_POST["user_id"]))
  $image = get_image_name($_POST["user_id"]);
  if($image != '')
  {
-  unlink("upload/" . $image);
+  unlink("uploads/" . $image);
  }
  $statement = $connection->prepare(
   "DELETE FROM product WHERE id = :id"
